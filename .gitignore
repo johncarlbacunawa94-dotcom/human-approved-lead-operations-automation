@@ -1,0 +1,21 @@
+# Raw/private portfolio material
+_private/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials/
+secrets/
+
+# Runtime / local data
+executions/
+raw-data/
+*.sqlite
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
