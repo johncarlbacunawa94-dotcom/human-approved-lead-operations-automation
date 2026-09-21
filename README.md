@@ -13,6 +13,16 @@ The final follow-up is created as an **unsent Gmail draft** with an internal GoH
 
 ---
 
+## Architecture Overview
+
+[![Human-Approved AI Lead Operations architecture](evidence/architecture/01-architecture-overview.gif)](ARCHITECTURE.md)
+
+The architecture separates authoritative CRM state, advisory AI interpretation, deterministic routing, explicit human approval, controlled follow-up preparation, and final human send authority.
+
+GoHighLevel remains the source of business truth, n8n handles orchestration and durable processing controls, and AI is limited to advisory interpretation and constrained draft preparation.
+
+[View detailed architecture documentation →](ARCHITECTURE.md)
+
 ## What this system handles
 
 - Creates an authoritative CRM Opportunity before AI processing begins
