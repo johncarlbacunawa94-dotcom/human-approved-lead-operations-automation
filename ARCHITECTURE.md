@@ -1,4 +1,5 @@
 # System Architecture
+![Human-Approved AI Lead Operations architecture](evidence/architecture/01-architecture-overview.png)
 
 The Human-Approved AI Lead Operations system separates **CRM authority**, **deterministic business logic**, **AI assistance**, **workflow orchestration**, and **human approval** into distinct control layers.
 
